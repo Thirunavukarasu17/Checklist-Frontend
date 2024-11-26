@@ -24,7 +24,7 @@ const ChecklistDashboard = () => {
         <div className="dashboard-container">
             {applicationDetails && (
                 <>
-                    <h2>Checklist Results for Application Number {applicationDetails.applicationNumber}</h2>
+                    <h2>Checklist Results for Application Number : {applicationDetails.applicationNumber}</h2>
                     <p>
                         <strong>Broker:</strong> {applicationDetails.brokerName} (
                         {applicationDetails.brokerEmail})
